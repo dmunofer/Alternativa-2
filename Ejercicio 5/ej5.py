@@ -27,8 +27,7 @@ def desencriptar(encriptado, clave):
 
     dir_down = None
     row, col = 0, 0
-     
-
+    
     for i in range(len(encriptado)):
         if row == 0:
             dir_down = True
