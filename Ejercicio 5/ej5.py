@@ -46,12 +46,9 @@ def desencriptar(encriptado, clave):
     index = 0
     for i in range(clave):
         for j in range(len(encriptado)):
-            if ((rail[i][j] == '*') and
-               (index < len(encriptado))):
+            if ((rail[i][j] == '*') and (index < len(encriptado))):
                 rail[i][j] = encriptado[index]
                 index += 1
-         
-  
     result = []
     row, col = 0, 0
     for i in range(len(encriptado)):
