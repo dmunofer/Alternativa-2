@@ -36,13 +36,12 @@ def desencriptar(encriptado, clave):
 
         rail[row][col] = '*'
         col += 1
-         
+
 
         if dir_down:
             row += 1
         else:
             row -= 1
-             
 
     index = 0
     for i in range(clave):
