@@ -59,8 +59,6 @@ def desencriptar(encriptado, clave):
         if (rail[row][col] != '*'):
             result.append(rail[row][col])
             col += 1
-             
-        
         if dir_down:
             row += 1
         else:
