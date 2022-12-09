@@ -64,4 +64,3 @@ def desencriptar(encriptado, clave):
         else:
             row -= 1
     return("".join(result))
- 
