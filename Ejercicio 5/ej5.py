@@ -52,14 +52,10 @@ def desencriptar(encriptado, clave):
     result = []
     row, col = 0, 0
     for i in range(len(encriptado)):
-         
-        
         if row == 0:
             dir_down = True
         if row == clave-1:
             dir_down = False
-             
-       
         if (rail[row][col] != '*'):
             result.append(rail[row][col])
             col += 1
