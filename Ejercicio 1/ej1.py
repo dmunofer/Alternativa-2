@@ -63,3 +63,16 @@ def mostrar_sudoku(sudoku):
                 print(sudoku[i][j])
             else:
                 print(str(sudoku[i][j]) + " ", end="")
+
+def encontrar_vacia(sudoku):
+    for i in range(len(sudoku)):
+        for j in range(len(sudoku[0])):
+            if sudoku[i][j] == 0:
+                return (i, j)  # row, col
+
+    return None
+
+mostrar_sudoku(sudoku)
+resolver(sudoku)
+print("___________________")
+mostrar_sudoku(sudoku)
