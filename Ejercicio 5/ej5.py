@@ -27,13 +27,13 @@ def desencriptar(encriptado, clave):
 
     dir_down = None
     row, col = 0, 0
-    
+
     for i in range(len(encriptado)):
         if row == 0:
             dir_down = True
         if row == clave - 1:
             dir_down = False
-         
+
         rail[row][col] = '*'
         col += 1
          
