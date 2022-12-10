@@ -47,9 +47,16 @@ def exe():
 
     if ejercicio==4:
 
-        ej4.fibonacci(20000)
+        ej4.fibonacci(2000000)
+
+    if ejercicio==5:
+        
+        mensaje=input('Introduce el mensaje que quieras encriptar')
+        clave= input('Introduce la clave')
+        encriptado= ej5.encriptar(mensaje,clave)
+        ej5.desencriptar(encriptado,clave)
 
 
 
     else:
-        print('Número de ejercicio incorrecto.(dDebe ser 1,2 o 3)')
+        print('Número de ejercicio incorrecto.(dDebe ser 1,2,3,4 o 5)')
