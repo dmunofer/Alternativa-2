@@ -33,13 +33,13 @@ def exe():
 
 
     if ejercicio==2:
-        ej2.expand("(x+1)^2")      
-        ej2.expand("(p-1)^3")      
-        ej2.expand("(2f+4)^6")     
-        ej2.expand("(-2a-4)^0")    
-        ej2.expand("(-12t+43)^2")  
-        ej2.expand("(r+0)^203")   
-        ej2.expand("(-x-1)^2") 
+        ej2.expand("(x+1)^2")
+        ej2.expand("(p-1)^3")
+        ej2.expand("(2f+4)^6")
+        ej2.expand("(-2a-4)^0")
+        ej2.expand("(-12t+43)^2")
+        ej2.expand("(r+0)^203")
+        ej2.expand("(-x-1)^2")
 
     if ejercicio==3:
 
