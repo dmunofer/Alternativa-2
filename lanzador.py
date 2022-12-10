@@ -50,7 +50,7 @@ def exe():
         ej4.fibonacci(2000000)
 
     if ejercicio==5:
-        
+
         mensaje=input('Introduce el mensaje que quieras encriptar')
         clave= input('Introduce la clave')
         encriptado= ej5.encriptar(mensaje,clave)
